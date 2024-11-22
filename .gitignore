@@ -1,0 +1,10 @@
+# CSS files (because we're using SASS)
+*.css
+*.css.map
+
+# govuk frontend stuff
+[full path from root of your project]/wwwroot/assets
+[full path from root of your project]/wwwroot/js/govuk.js
+
+# minified js
+*.min.js

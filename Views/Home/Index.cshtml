@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="govuk-grid-row govuk-body">
+    <div class="govuk-grid-column-two-thirds">
+
+        <h1 class="govuk-heading-xl">
+            EV Home Charger Eligibility Checker
+        </h1>
+
+        <p>Use this service to:</p>
+
+        <ul class="govuk-list govuk-list--bullet">
+            <li>Check you eleigibility for funding on a home EV charger</li>
+            <li>Apply for funding on a home EV charger</li>
+        </ul>
+
+        <p>Checking your eleigibility takes around 5 minutes.</p>
+
+        <a asp-controller="Registration" asp-action="GetVehicles">
+            <button type="button" class="govuk-button" data-module="govuk-button">
+                Start now
+            </button>
+        </a>
+
+        <h2 class="govuk-heading-m">
+            Before you start
+        </h2>
+
+        <p>
+            You can’t register for this service if you’re in the UK illegally.
+        </p>
+
+    </div>
+</div>

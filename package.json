@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "dart-sass": "^1.25.0",
+    "govuk-frontend": "^5.7.1",
+    "sass": "^1.80.6"
+  },
+  "scripts" : {
+    "compile-sass" : "dart-sass Documents/RegistrationValidationApp/wwwroot/css/main.scss"
+ } 
+}
